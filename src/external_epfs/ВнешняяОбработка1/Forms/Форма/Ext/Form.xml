@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ФормаГруппа1" id="4">
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ФормаГруппа1РасширеннаяПодсказка" id="5"/>
+				<ChildItems>
+					<Button name="ФормаПечать" id="6">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Print</CommandName>
+						<ExtendedTooltip name="ФормаПечатьРасширеннаяПодсказка" id="7"/>
+					</Button>
+					<Button name="ФормаСвойства" id="8">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Properties</CommandName>
+						<ExtendedTooltip name="ФормаСвойстваРасширеннаяПодсказка" id="9"/>
+					</Button>
+					<Button name="ФормаВыровнятьПоШирине" id="10">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignJustify</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьПоШиринеРасширеннаяПодсказка" id="11"/>
+					</Button>
+					<Button name="ФормаВыровнятьВправо" id="12">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignRight</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьВправоРасширеннаяПодсказка" id="13"/>
+					</Button>
+					<Button name="ФормаВыровнятьПоЦентру" id="14">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignCenter</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьПоЦентруРасширеннаяПодсказка" id="15"/>
+					</Button>
+					<Button name="ФормаВыровнятьВлево" id="16">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignLeft</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьВлевоРасширеннаяПодсказка" id="17"/>
+					</Button>
+					<Button name="ФормаЦветГраницы" id="18">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderColor</CommandName>
+						<ExtendedTooltip name="ФормаЦветГраницыРасширеннаяПодсказка" id="19"/>
+					</Button>
+					<Button name="ФормаЦветТекста" id="20">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.TextColor</CommandName>
+						<ExtendedTooltip name="ФормаЦветТекстаРасширеннаяПодсказка" id="21"/>
+					</Button>
+					<Button name="ФормаЦветФона" id="22">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BackColor</CommandName>
+						<ExtendedTooltip name="ФормаЦветФонаРасширеннаяПодсказка" id="23"/>
+					</Button>
+					<Button name="ФормаНетГраницы" id="24">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderNone</CommandName>
+						<ExtendedTooltip name="ФормаНетГраницыРасширеннаяПодсказка" id="25"/>
+					</Button>
+					<Button name="ФормаТолстаяГраницаСнизу" id="26">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ThickBorderBottom</CommandName>
+						<ExtendedTooltip name="ФормаТолстаяГраницаСнизуРасширеннаяПодсказка" id="27"/>
+					</Button>
+					<Button name="ФормаТолстаяГраницаСверху" id="28">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ThickBorderTop</CommandName>
+						<ExtendedTooltip name="ФормаТолстаяГраницаСверхуРасширеннаяПодсказка" id="29"/>
+					</Button>
+					<Button name="ФормаТолстаяГраницаВокруг" id="30">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ThickBorderOutline</CommandName>
+						<ExtendedTooltip name="ФормаТолстаяГраницаВокругРасширеннаяПодсказка" id="31"/>
+					</Button>
+					<Button name="ФормаГраницаВнутри" id="32">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderInside</CommandName>
+						<ExtendedTooltip name="ФормаГраницаВнутриРасширеннаяПодсказка" id="33"/>
+					</Button>
+					<Button name="ФормаГраницаВокруг" id="34">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderOutline</CommandName>
+						<ExtendedTooltip name="ФормаГраницаВокругРасширеннаяПодсказка" id="35"/>
+					</Button>
+					<Button name="ФормаГраницаВезде" id="36">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderAll</CommandName>
+						<ExtendedTooltip name="ФормаГраницаВездеРасширеннаяПодсказка" id="37"/>
+					</Button>
+					<Button name="ФормаГраницаСнизу" id="38">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderBottom</CommandName>
+						<ExtendedTooltip name="ФормаГраницаСнизуРасширеннаяПодсказка" id="39"/>
+					</Button>
+					<Button name="ФормаГраницаСправа" id="40">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderRight</CommandName>
+						<ExtendedTooltip name="ФормаГраницаСправаРасширеннаяПодсказка" id="41"/>
+					</Button>
+					<Button name="ФормаГраницаСверху" id="42">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderTop</CommandName>
+						<ExtendedTooltip name="ФормаГраницаСверхуРасширеннаяПодсказка" id="43"/>
+					</Button>
+					<Button name="ФормаГраницаСлева" id="44">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BorderLeft</CommandName>
+						<ExtendedTooltip name="ФормаГраницаСлеваРасширеннаяПодсказка" id="45"/>
+					</Button>
+					<Button name="ФормаПодчеркивание" id="46">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Underline</CommandName>
+						<ExtendedTooltip name="ФормаПодчеркиваниеРасширеннаяПодсказка" id="47"/>
+					</Button>
+					<Button name="ФормаНаклонный" id="48">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Italic</CommandName>
+						<ExtendedTooltip name="ФормаНаклонныйРасширеннаяПодсказка" id="49"/>
+					</Button>
+					<Button name="ФормаЖирный" id="50">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Bold</CommandName>
+						<ExtendedTooltip name="ФормаЖирныйРасширеннаяПодсказка" id="51"/>
+					</Button>
+					<Button name="ФормаШрифт" id="52">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Font</CommandName>
+						<ExtendedTooltip name="ФормаШрифтРасширеннаяПодсказка" id="53"/>
+					</Button>
+					<Button name="ФормаПереместитьНаЗаднийПланРисунок" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SendDrawingToBack</CommandName>
+						<ExtendedTooltip name="ФормаПереместитьНаЗаднийПланРисунокРасширеннаяПодсказка" id="55"/>
+					</Button>
+					<Button name="ФормаПереместитьНаПереднийПланРисунок" id="56">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BringDrawingToFront</CommandName>
+						<ExtendedTooltip name="ФормаПереместитьНаПереднийПланРисунокРасширеннаяПодсказка" id="57"/>
+					</Button>
+					<Button name="ФормаПереместитьНазадРисунок" id="58">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SendDrawingBackward</CommandName>
+						<ExtendedTooltip name="ФормаПереместитьНазадРисунокРасширеннаяПодсказка" id="59"/>
+					</Button>
+					<Button name="ФормаПереместитьВпередРисунок" id="60">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BringDrawingForward</CommandName>
+						<ExtendedTooltip name="ФормаПереместитьВпередРисунокРасширеннаяПодсказка" id="61"/>
+					</Button>
+					<Button name="ФормаРаспределитьПоГоризонталиРисунки" id="62">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.DistributeDrawingsHorizontally</CommandName>
+						<ExtendedTooltip name="ФормаРаспределитьПоГоризонталиРисункиРасширеннаяПодсказка" id="63"/>
+					</Button>
+					<Button name="ФормаРаспределитьПоВертикалиРисунки" id="64">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.DistributeDrawingsVertically</CommandName>
+						<ExtendedTooltip name="ФормаРаспределитьПоВертикалиРисункиРасширеннаяПодсказка" id="65"/>
+					</Button>
+					<Button name="ФормаОдинаковыйРазмерРисунков" id="66">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.EqualDrawingSize</CommandName>
+						<ExtendedTooltip name="ФормаОдинаковыйРазмерРисунковРасширеннаяПодсказка" id="67"/>
+					</Button>
+					<Button name="ФормаОдинаковаяВысотаРисунков" id="68">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.EqualDrawingHeight</CommandName>
+						<ExtendedTooltip name="ФормаОдинаковаяВысотаРисунковРасширеннаяПодсказка" id="69"/>
+					</Button>
+					<Button name="ФормаОдинаковаяШиринаРисунков" id="70">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.EqualDrawingWidth</CommandName>
+						<ExtendedTooltip name="ФормаОдинаковаяШиринаРисунковРасширеннаяПодсказка" id="71"/>
+					</Button>
+					<Button name="ФормаВыровнятьРисунокВниз" id="72">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignDrawingBottom</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьРисунокВнизРасширеннаяПодсказка" id="73"/>
+					</Button>
+					<Button name="ФормаВыровнятьРисунокПоСередине" id="74">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignDrawingMiddle</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьРисунокПоСерединеРасширеннаяПодсказка" id="75"/>
+					</Button>
+					<Button name="ФормаВыровнятьРисунокВверх" id="76">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignDrawingTop</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьРисунокВверхРасширеннаяПодсказка" id="77"/>
+					</Button>
+					<Button name="ФормаВыровнятьРисунокВправо" id="78">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignDrawingRight</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьРисунокВправоРасширеннаяПодсказка" id="79"/>
+					</Button>
+					<Button name="ФормаВыровнятьРисунокПоЦентру" id="80">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignDrawingCenter</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьРисунокПоЦентруРасширеннаяПодсказка" id="81"/>
+					</Button>
+					<Button name="ФормаВыровнятьРисунокВлево" id="82">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.AlignDrawingLeft</CommandName>
+						<ExtendedTooltip name="ФормаВыровнятьРисунокВлевоРасширеннаяПодсказка" id="83"/>
+					</Button>
+					<Button name="ФормаРазгруппировать" id="84">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Ungroup</CommandName>
+						<ExtendedTooltip name="ФормаРазгруппироватьРасширеннаяПодсказка" id="85"/>
+					</Button>
+					<Button name="ФормаСгруппировать" id="86">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Group</CommandName>
+						<ExtendedTooltip name="ФормаСгруппироватьРасширеннаяПодсказка" id="87"/>
+					</Button>
+					<Button name="ФормаЭллипс" id="88">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Ellipse</CommandName>
+						<ExtendedTooltip name="ФормаЭллипсРасширеннаяПодсказка" id="89"/>
+					</Button>
+					<Button name="ФормаПрямая" id="90">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Line</CommandName>
+						<ExtendedTooltip name="ФормаПрямаяРасширеннаяПодсказка" id="91"/>
+					</Button>
+					<Button name="ФормаПрямоугольник" id="92">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Rectangle</CommandName>
+						<ExtendedTooltip name="ФормаПрямоугольникРасширеннаяПодсказка" id="93"/>
+					</Button>
+					<Button name="ФормаТекст" id="94">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Text</CommandName>
+						<ExtendedTooltip name="ФормаТекстРасширеннаяПодсказка" id="95"/>
+					</Button>
+					<Button name="ФормаКартинка" id="96">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Picture</CommandName>
+						<ExtendedTooltip name="ФормаКартинкаРасширеннаяПодсказка" id="97"/>
+					</Button>
+					<Button name="ФормаШиринаКолонок" id="98">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ColumnWidth</CommandName>
+						<ExtendedTooltip name="ФормаШиринаКолонокРасширеннаяПодсказка" id="99"/>
+					</Button>
+					<Button name="ФормаВысотаСтрок" id="100">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RowHeight</CommandName>
+						<ExtendedTooltip name="ФормаВысотаСтрокРасширеннаяПодсказка" id="101"/>
+					</Button>
+					<Button name="ФормаОтобразить" id="102">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Show</CommandName>
+						<ExtendedTooltip name="ФормаОтобразитьРасширеннаяПодсказка" id="103"/>
+					</Button>
+					<Button name="ФормаСкрыть" id="104">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Hide</CommandName>
+						<ExtendedTooltip name="ФормаСкрытьРасширеннаяПодсказка" id="105"/>
+					</Button>
+					<Button name="ФормаРазбитьЯчейку" id="106">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SplitCell</CommandName>
+						<ExtendedTooltip name="ФормаРазбитьЯчейкуРасширеннаяПодсказка" id="107"/>
+					</Button>
+					<Button name="ФормаРаздвинуть" id="108">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertRows</CommandName>
+						<ExtendedTooltip name="ФормаРаздвинутьРасширеннаяПодсказка" id="109"/>
+					</Button>
+					<Button name="ФормаПерейтиКЯчейке" id="110">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.GoToCell</CommandName>
+						<ExtendedTooltip name="ФормаПерейтиКЯчейкеРасширеннаяПодсказка" id="111"/>
+					</Button>
+					<Button name="ФормаСледующееПримечание" id="112">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.NextComment</CommandName>
+						<ExtendedTooltip name="ФормаСледующееПримечаниеРасширеннаяПодсказка" id="113"/>
+					</Button>
+					<Button name="ФормаПредыдущееПримечание" id="114">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.PreviousComment</CommandName>
+						<ExtendedTooltip name="ФормаПредыдущееПримечаниеРасширеннаяПодсказка" id="115"/>
+					</Button>
+					<Button name="ФормаУдалитьПримечание" id="116">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.DeleteComment</CommandName>
+						<ExtendedTooltip name="ФормаУдалитьПримечаниеРасширеннаяПодсказка" id="117"/>
+					</Button>
+					<Button name="ФормаВставитьПримечание" id="118">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertComment</CommandName>
+						<ExtendedTooltip name="ФормаВставитьПримечаниеРасширеннаяПодсказка" id="119"/>
+					</Button>
+					<Button name="ФормаУдалитьРазрывСтраницы" id="120">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RemovePageBreak</CommandName>
+						<ExtendedTooltip name="ФормаУдалитьРазрывСтраницыРасширеннаяПодсказка" id="121"/>
+					</Button>
+					<Button name="ФормаВставитьРазрывСтраницы" id="122">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertPageBreak</CommandName>
+						<ExtendedTooltip name="ФормаВставитьРазрывСтраницыРасширеннаяПодсказка" id="123"/>
+					</Button>
+					<Button name="ФормаУдалитьПовторение" id="124">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RemoveRepeatOnEachPage</CommandName>
+						<ExtendedTooltip name="ФормаУдалитьПовторениеРасширеннаяПодсказка" id="125"/>
+					</Button>
+					<Button name="ФормаПовторятьНаКаждомЛисте" id="126">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RepeatOnEachPage</CommandName>
+						<ExtendedTooltip name="ФормаПовторятьНаКаждомЛистеРасширеннаяПодсказка" id="127"/>
+					</Button>
+					<Button name="ФормаУдалитьОбластьПечати" id="128">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RemovePrintArea</CommandName>
+						<ExtendedTooltip name="ФормаУдалитьОбластьПечатиРасширеннаяПодсказка" id="129"/>
+					</Button>
+					<Button name="ФормаУстановитьОбластьПечати" id="130">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SetPrintArea</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьОбластьПечатиРасширеннаяПодсказка" id="131"/>
+					</Button>
+					<Button name="ФормаКолонтитулы" id="132">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.HeaderFooter</CommandName>
+						<ExtendedTooltip name="ФормаКолонтитулыРасширеннаяПодсказка" id="133"/>
+					</Button>
+					<Button name="ФормаИсключитьИзГруппы" id="134">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RemoveFromGroup</CommandName>
+						<ExtendedTooltip name="ФормаИсключитьИзГруппыРасширеннаяПодсказка" id="135"/>
+					</Button>
+					<Button name="ФормаОбъединитьВГруппу" id="136">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.CombineToGroup</CommandName>
+						<ExtendedTooltip name="ФормаОбъединитьВГруппуРасширеннаяПодсказка" id="137"/>
+					</Button>
+					<Button name="ФормаРежимПросмотраСтраниц" id="138">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.PageViewMode</CommandName>
+						<ExtendedTooltip name="ФормаРежимПросмотраСтраницРасширеннаяПодсказка" id="139"/>
+					</Button>
+					<Button name="ФормаЧерноБелыйПросмотр" id="140">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.BlackAndWhiteView</CommandName>
+						<ExtendedTooltip name="ФормаЧерноБелыйПросмотрРасширеннаяПодсказка" id="141"/>
+					</Button>
+					<Button name="ФормаОтображатьПримечания" id="142">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ShowComments</CommandName>
+						<ExtendedTooltip name="ФормаОтображатьПримечанияРасширеннаяПодсказка" id="143"/>
+					</Button>
+					<Button name="ФормаОтображатьЗаголовки" id="144">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ShowHeaders</CommandName>
+						<ExtendedTooltip name="ФормаОтображатьЗаголовкиРасширеннаяПодсказка" id="145"/>
+					</Button>
+					<Button name="ФормаОтображатьСетку" id="146">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ShowGrid</CommandName>
+						<ExtendedTooltip name="ФормаОтображатьСеткуРасширеннаяПодсказка" id="147"/>
+					</Button>
+					<Button name="ФормаУбратьИмя" id="148">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.RemoveName</CommandName>
+						<ExtendedTooltip name="ФормаУбратьИмяРасширеннаяПодсказка" id="149"/>
+					</Button>
+					<Button name="ФормаНазначитьИмя" id="150">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SetName</CommandName>
+						<ExtendedTooltip name="ФормаНазначитьИмяРасширеннаяПодсказка" id="151"/>
+					</Button>
+					<Button name="ФормаОтображатьИменаЯчеек" id="152">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ShowCellNames</CommandName>
+						<ExtendedTooltip name="ФормаОтображатьИменаЯчеекРасширеннаяПодсказка" id="153"/>
+					</Button>
+					<Button name="ФормаОтображатьИменаСтрокИКолонок" id="154">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ShowRowAndColumnNames</CommandName>
+						<ExtendedTooltip name="ФормаОтображатьИменаСтрокИКолонокРасширеннаяПодсказка" id="155"/>
+					</Button>
+					<Button name="ФормаИмена" id="156">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Names</CommandName>
+						<ExtendedTooltip name="ФормаИменаРасширеннаяПодсказка" id="157"/>
+					</Button>
+					<Button name="ФормаОчиститьСодержимое" id="158">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ClearContent</CommandName>
+						<ExtendedTooltip name="ФормаОчиститьСодержимоеРасширеннаяПодсказка" id="159"/>
+					</Button>
+					<Button name="ФормаОчиститьВсе" id="160">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ClearAll</CommandName>
+						<ExtendedTooltip name="ФормаОчиститьВсеРасширеннаяПодсказка" id="161"/>
+					</Button>
+					<Button name="ФормаУдалитьКолонки" id="162">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.DeleteColumns</CommandName>
+						<ExtendedTooltip name="ФормаУдалитьКолонкиРасширеннаяПодсказка" id="163"/>
+					</Button>
+					<Button name="ФормаВставитьКолонкиСправа" id="164">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertColumnsRight</CommandName>
+						<ExtendedTooltip name="ФормаВставитьКолонкиСправаРасширеннаяПодсказка" id="165"/>
+					</Button>
+					<Button name="ФормаВставитьКолонкиСлева" id="166">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertColumnsLeft</CommandName>
+						<ExtendedTooltip name="ФормаВставитьКолонкиСлеваРасширеннаяПодсказка" id="167"/>
+					</Button>
+					<Button name="ФормаУдалитьСтроки" id="168">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.DeleteRows</CommandName>
+						<ExtendedTooltip name="ФормаУдалитьСтрокиРасширеннаяПодсказка" id="169"/>
+					</Button>
+					<Button name="ФормаВставитьСтрокиСнизу" id="170">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertRowsBottom</CommandName>
+						<ExtendedTooltip name="ФормаВставитьСтрокиСнизуРасширеннаяПодсказка" id="171"/>
+					</Button>
+					<Button name="ФормаВставитьСтрокиСверху" id="172">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.InsertRowsTop</CommandName>
+						<ExtendedTooltip name="ФормаВставитьСтрокиСверхуРасширеннаяПодсказка" id="173"/>
+					</Button>
+					<Button name="ФормаОбъединить" id="174">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Merge</CommandName>
+						<ExtendedTooltip name="ФормаОбъединитьРасширеннаяПодсказка" id="175"/>
+					</Button>
+					<Button name="ФормаВернуть" id="176">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Redo</CommandName>
+						<ExtendedTooltip name="ФормаВернутьРасширеннаяПодсказка" id="177"/>
+					</Button>
+					<Button name="ФормаОтменить" id="178">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Undo</CommandName>
+						<ExtendedTooltip name="ФормаОтменитьРасширеннаяПодсказка" id="179"/>
+					</Button>
+					<Button name="ФормаРедактирование" id="180">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Edit</CommandName>
+						<ExtendedTooltip name="ФормаРедактированиеРасширеннаяПодсказка" id="181"/>
+					</Button>
+					<Button name="ФормаРазвернутьВсеГруппы" id="182">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ExpandAllGroups</CommandName>
+						<ExtendedTooltip name="ФормаРазвернутьВсеГруппыРасширеннаяПодсказка" id="183"/>
+					</Button>
+					<Button name="ФормаСвернутьВсеГруппы" id="184">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.CollapseAllGroups</CommandName>
+						<ExtendedTooltip name="ФормаСвернутьВсеГруппыРасширеннаяПодсказка" id="185"/>
+					</Button>
+					<Button name="ФормаОтображатьГруппировки" id="186">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.ShowGroups</CommandName>
+						<ExtendedTooltip name="ФормаОтображатьГруппировкиРасширеннаяПодсказка" id="187"/>
+					</Button>
+					<Button name="ФормаНайтиПредыдущий" id="188">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.FindPrevious</CommandName>
+						<ExtendedTooltip name="ФормаНайтиПредыдущийРасширеннаяПодсказка" id="189"/>
+					</Button>
+					<Button name="ФормаНайтиСледующий" id="190">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.FindNext</CommandName>
+						<ExtendedTooltip name="ФормаНайтиСледующийРасширеннаяПодсказка" id="191"/>
+					</Button>
+					<Button name="ФормаВыделитьВсе" id="192">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SelectAll</CommandName>
+						<ExtendedTooltip name="ФормаВыделитьВсеРасширеннаяПодсказка" id="193"/>
+					</Button>
+					<Button name="ФормаСохранитьКак" id="194">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SaveAs</CommandName>
+						<ExtendedTooltip name="ФормаСохранитьКакРасширеннаяПодсказка" id="195"/>
+					</Button>
+					<Button name="ФормаСохранить" id="196">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Save</CommandName>
+						<ExtendedTooltip name="ФормаСохранитьРасширеннаяПодсказка" id="197"/>
+					</Button>
+					<Button name="ФормаВставитьИзБуфераОбмена" id="198">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.PasteFromClipboard</CommandName>
+						<ExtendedTooltip name="ФормаВставитьИзБуфераОбменаРасширеннаяПодсказка" id="199"/>
+					</Button>
+					<Button name="ФормаНайтиВезде" id="200">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.SearchEverywhere</CommandName>
+						<ExtendedTooltip name="ФормаНайтиВездеРасширеннаяПодсказка" id="201"/>
+					</Button>
+					<Button name="ФормаКопироватьВБуферОбмена" id="202">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.CopyToClipboard</CommandName>
+						<ExtendedTooltip name="ФормаКопироватьВБуферОбменаРасширеннаяПодсказка" id="203"/>
+					</Button>
+					<Button name="ФормаНайти" id="204">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Find</CommandName>
+						<ExtendedTooltip name="ФормаНайтиРасширеннаяПодсказка" id="205"/>
+					</Button>
+					<Button name="ФормаПараметрыСтраницы" id="206">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.PageSetup</CommandName>
+						<ExtendedTooltip name="ФормаПараметрыСтраницыРасширеннаяПодсказка" id="207"/>
+					</Button>
+					<Button name="ФормаПечатьСразу" id="208">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.PrintImmediately</CommandName>
+						<ExtendedTooltip name="ФормаПечатьСразуРасширеннаяПодсказка" id="209"/>
+					</Button>
+					<Button name="ФормаПредварительныйПросмотр" id="210">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.Preview</CommandName>
+						<ExtendedTooltip name="ФормаПредварительныйПросмотрРасширеннаяПодсказка" id="211"/>
+					</Button>
+					<Button name="ФормаЗафиксироватьТаблицу" id="212">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.ТабличныйДокумент.StandardCommand.FixTable</CommandName>
+						<ExtendedTooltip name="ФормаЗафиксироватьТаблицуРасширеннаяПодсказка" id="213"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<SpreadSheetDocumentField name="ТабличныйДокумент" id="1">
+			<DataPath>ТабличныйДокумент</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>true</Edit>
+			<ShowCellNames>true</ShowCellNames>
+			<ShowRowAndColumnNames>true</ShowRowAndColumnNames>
+			<ViewScalingMode>Large</ViewScalingMode>
+			<ContextMenu name="ТабличныйДокументКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ТабличныйДокументРасширеннаяПодсказка" id="3"/>
+		</SpreadSheetDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ВнешняяОбработка1</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТабличныйДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табличный документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

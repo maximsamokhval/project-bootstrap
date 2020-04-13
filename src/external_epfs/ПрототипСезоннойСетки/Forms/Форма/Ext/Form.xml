@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСохранитьСуперСлоты" id="77">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СохранитьСуперСлоты</CommandName>
+				<ExtendedTooltip name="ФормаСохранитьСуперСлотыРасширеннаяПодсказка" id="78"/>
+			</Button>
+			<Button name="ФормаИнициализировать" id="64">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Инициализировать</CommandName>
+				<ExtendedTooltip name="ФормаИнициализироватьРасширеннаяПодсказка" id="65"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Сетка" id="79">
+			<DataPath>Объект.Сетка</DataPath>
+			<ContextMenu name="СеткаКонтекстноеМеню" id="80"/>
+			<ExtendedTooltip name="СеткаРасширеннаяПодсказка" id="81"/>
+			<Events>
+				<Event name="OnChange">СеткаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<CommandBar name="ГруппаКомандыСетки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Группа команды сетки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Группа команды сетки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаКомандыСеткиРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<Button name="Объединить" id="60">
+					<Type>CommandBarButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.Merge</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ОбъединитьРасширеннаяПодсказка" id="61"/>
+				</Button>
+				<Button name="Прямоугольник" id="73">
+					<Type>CommandBarButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.Rectangle</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ПрямоугольникРасширеннаяПодсказка" id="74"/>
+				</Button>
+				<Button name="Жирный" id="38">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.Bold</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ЖирныйРасширеннаяПодсказка" id="39"/>
+				</Button>
+				<Button name="Наклонный" id="40">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.Italic</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="НаклонныйРасширеннаяПодсказка" id="41"/>
+				</Button>
+				<Button name="Подчеркивание" id="42">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.Underline</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ПодчеркиваниеРасширеннаяПодсказка" id="43"/>
+				</Button>
+				<Button name="ГраницаВезде" id="44">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.BorderAll</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ГраницаВездеРасширеннаяПодсказка" id="45"/>
+				</Button>
+				<Button name="ЦветФона" id="46">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.BackColor</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ЦветФонаРасширеннаяПодсказка" id="47"/>
+				</Button>
+				<Button name="ЦветТекста" id="48">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.TextColor</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ЦветТекстаРасширеннаяПодсказка" id="49"/>
+				</Button>
+				<Button name="ЦветГраницы" id="50">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.BorderColor</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ЦветГраницыРасширеннаяПодсказка" id="51"/>
+				</Button>
+				<Button name="ВыровнятьВлево" id="52">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.AlignLeft</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ВыровнятьВлевоРасширеннаяПодсказка" id="53"/>
+				</Button>
+				<Button name="ВыровнятьПоЦентру" id="54">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.AlignCenter</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ВыровнятьПоЦентруРасширеннаяПодсказка" id="55"/>
+				</Button>
+				<Button name="ВыровнятьВправо" id="56">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.AlignRight</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ВыровнятьВправоРасширеннаяПодсказка" id="57"/>
+				</Button>
+				<Button name="ВыровнятьПоШирине" id="58">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Item.СезоннаяСетка.StandardCommand.AlignJustify</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ВыровнятьПоШиринеРасширеннаяПодсказка" id="59"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<SpreadSheetDocumentField name="СезоннаяСетка" id="1">
+			<DataPath>СезоннаяСетка</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>true</Edit>
+			<ContextMenu name="СезоннаяСеткаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="СезоннаяСеткаРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">СезоннаяСеткаПриИзменении</Event>
+				<Event name="OnActivate">СезоннаяСеткаПриАктивизацииОбласти</Event>
+			</Events>
+		</SpreadSheetDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ПрототипСезоннойСетки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СезоннаяСетка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Сезонная сетка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КэшированныеЗначения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Кэшированные значения</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПосчитатьВсеСлоты" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Посчитать все слоты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Посчитать все слоты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПосчитатьВсеСлоты</Action>
+		</Command>
+		<Command name="Инициализировать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Инициализировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Инициализировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Инициализировать</Action>
+		</Command>
+		<Command name="СохранитьСуперСлоты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить супер слоты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Сохранить супер слоты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Сохранить супер слоты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьСуперСлоты</Action>
+		</Command>
+	</Commands>
+</Form>
